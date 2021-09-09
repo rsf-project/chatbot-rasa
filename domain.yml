@@ -181,6 +181,25 @@ responses:
 
 actions:
     - aksi_view_khs
+    - aksi_view_sks_khs
+    - aksi_view_ip_khs
+    - aksi_view_sp_khs
+    - aksi_view_krs
+    - aksi_view_sks_krs
+    - aksi_view_max_sks_krs
+    - aksi_view_jadwal_mk_krs
+    - aksi_view_dosen_mk_krs
+    - aksi_aksi_view_ruangan_mk_krs
+    - aksi_view_sks_mk_krs
+    - aksi_view_kode_mk_krs
+    - aksi_view_avaible_mk_krs
+    - aksi_view_avaible_mk_sp_krs
+    - aksi_view_max_sks_sp_krs
+    - aksi_view_sks_sp_krs
+    - aksi_view_sks_sp_krs
+    - aksi_view_sp_krs
+    - aksi_view_history_mk_transkip_nilai
+    - aksi_view_nilai_mk_transkip_nilai
 
 session_config:
   session_expiration_time: 60
