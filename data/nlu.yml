@@ -1,0 +1,331 @@
+
+version: "2.0"
+
+nlu:
+#skema seputar khs
+- intent: view_khs
+  examples: |
+    - Tampilkan kartu hasil studi untuk semester [1](semester)
+    - Tampilkan kartu hasil studi untuk semester [2](semester)
+    - Tampilkan kartu hasil studi untuk semester [3](semester)
+    - Tampilkan kartu hasil studi untuk semester [4](semester)
+    - Tampilkan kartu hasil studi untuk semester [5](semester)
+    - Tampilkan kartu hasil studi untuk semester [6](semester)
+    - Tampilkan kartu hasil studi untuk semester [7](semester)
+    - Tampilkan kartu hasil studi untuk semester [8](semester)
+- intent: view_sks_khs
+  examples: |
+    - Tampilkan jumlah sks pada semester [1](semester)
+    - Tampilkan jumlah sks pada semester [2](semester)
+    - Tampilkan jumlah sks pada semester [3](semester)
+    - Tampilkan jumlah sks pada semester [4](semester)
+    - Tampilkan jumlah sks pada semester [5](semester)
+    - Tampilkan jumlah sks pada semester [6](semester)
+    - Tampilkan jumlah sks pada semester [7](semester)
+    - Tampilkan jumlah sks pada semester [8](semester)
+- intent: view_ipk_khs
+  examples: |
+    - Tampilkan ipk pada semester [1](semester)
+    - Tampilkan ipk pada semester [2](semester)
+    - Tampilkan ipk pada semester [3](semester)
+    - Tampilkan ipk pada semester [4](semester)
+    - Tampilkan ipk pada semester [5](semester)
+    - Tampilkan ipk pada semester [6](semester)
+    - Tampilkan ipk pada semester [7](semester)
+    - Tampilkan ipk pada semester [8](semester)
+- intent: view_ip_khs
+  examples: |
+    - Tampilkan ip pada semester [1](semester)
+    - Tampilkan ip pada semester [2](semester)
+    - Tampilkan ip pada semester [3](semester)
+    - Tampilkan ip pada semester [4](semester)
+    - Tampilkan ip pada semester [5](semester)
+    - Tampilkan ip pada semester [6](semester)
+    - Tampilkan ip pada semester [7](semester)
+    - Tampilkan ip pada semester [8](semester)
+- intent: view_sp_khs
+  examples: |
+    - Tampilkan semester pendek pada semester [2](semester)
+    - Tampilkan semester pendek pada semester [4](semester)
+    - Tampilkan semester pendek pada semester [6](semester)
+    - Tampilkan semester pendek pada semester [8](semester)
+
+#skema seputar krs
+- intent: view_krs
+  examples: |
+    - Tampilkan kartu rencana studi pada semester [ini](semester)
+    - Tampilkan krs pada semester [ini](semester)
+- intent: view_sks_krs
+  examples: |
+    - Tampilkan jumlah sks yang diambil pada semester [ini](semester)
+    - Tampilkan banyak sks yang diambil pada semester [ini](semester)
+- intent: view_max_sks_krs
+  examples: |
+    - Tampilkan batas sks maksimum yang boleh diambil pada semester [ini](semester)
+    - Tampilkan jumlah sks maksimum yang boleh diambil pada semester [ini](semester)
+    - Tampilkan banyak sks maksimum yang boleh diambil pada semester [ini](semester)
+- intent: view_jadwal_mk_krs
+  examples: |
+    - Tampilkan jadwal mata kuliah [kalkulus](mk)
+    - Tampilkan jadwal mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan jadwal mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan jadwal mata kuliah [struktur data 1](mk)
+    - Tampilkan jadwal mata kuliah [struktur data 2](mk)
+- intent: view_dosen_mk_krs
+  examples: |
+    - Tampilkan nama dosen yang mengampu mata kuliah [kalkulus](mk)
+    - Tampilkan nama dosen yang mengampu mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan nama dosen yang mengampu mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan nama dosen yang mengampu mata kuliah [struktur data 1](mk)
+    - Tampilkan nama dosen yang mengampu mata kuliah [struktur data 2](mk)
+- intent: view_ruangan_mk_krs
+  examples: |
+    - Tampilkan ruangan mata kuliah [kalkulus](mk)
+    - Tampilkan ruangan mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan ruangan mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan ruangan mata kuliah [struktur data 1](mk)
+    - Tampilkan ruangan mata kuliah [struktur data 2](mk)
+- intent: view_sks_mk_krs
+  examples: |
+    - Tampilkan sks pada mata kuliah [kalkulus](mk)
+    - Tampilkan sks pada mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan sks pada mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan sks pada mata kuliah [struktur data 1](mk)
+    - Tampilkan sks pada mata kuliah [struktur data 2](mk)
+- intent: view_kode_mk_krs
+  examples: |
+    - Tampilkan kode mata kuliah [kalkulus](mk)
+    - Tampilkan kode mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan kode mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan kode mata kuliah [struktur data 1](mk)
+    - Tampilkan kode mata kuliah [struktur data 2](mk)
+- intent: view_avaible_mk_krs
+  examples: |
+    - Tampilkan mata kuliah apa saja yang dapat diambil pada semester [ini](semester)
+    - Tampilkan mata kuliah apa saja yang bisa diambil pada semester [ini](semester)
+- intent: view_avaible_mk_sp_krs
+  examples: |
+    - Tampilkan mata kuliah apa saja yang dapat diambil pada semester [pendek](semester)
+    - Tampilkan mata kuliah apa saja yang bisa diambil pada semester [pendek](semester)
+- intent: view_max_sks_sp_krs
+  examples: |
+    - Tampilkan batas maksimum yang boleh diambil pada semester [pendek](semester)
+    - Tampilkan jumlah maksimum yang boleh diambil pada semester [pendek](semester)
+    - Tampilkan banyak maksimum yang boleh diambil pada semester [pendek](semester)
+- intent: view_sks_sp_krs
+  examples: |
+    - Tampilkan jumlah sks yang diambil pada semster [pendek](semester)
+    - Tampilkan banyak sks yang diambil pada semster [pendek](semester)
+- intent: view_sp_krs
+  examples: |
+    - Tampilkan kartu rencana studi semester [pendek](semester)
+    - Tampilkan krs semester [pendek](semester)
+- intent: view_dosen_pa
+  examples: |
+    - Tampilkan nama dosen pembimbing akademik
+    - Tampilkan nama dosen PA
+- intent: view_current_semester
+  examples: |
+    - Tampilkan semester saat ini
+    - Tampilkan semester yang sedang dijalani saat ini
+- intent: view_nim
+  examples: |
+    - Tampilkan NIM
+    - Tampilkan nomor induk mahasiswa
+- intent: view_nip_dosen_pa
+  examples: |
+    - Tampilkan NIP dosen pembimbing akademik
+    - Tampilkan nomor induk pegawai dosen pembimbing akademik
+    - Tampilkan NIP dosen PA
+    - Tampilkan nomor induk pegawai dosen PA
+- intent: view_name
+  examples: |
+    - Tampilkan nama pribadi sesuai yang tercantum pada akademik
+    - Tampilkan nama pribadi sesuai yang tertera pada akademik
+- intent: view_prodi
+  examples: |
+    - Tampilkan program studi
+    - Tampilkan prodi
+- intent: view_last_date_krs
+  examples: |
+    - Tampilkan batas akhir pengisian KRS
+    - Tampilkan tanggal tenggat pengisian KRS
+- intent: view_start_date_krs
+  examples: |
+    - Tampilkan tanggal mulai pengisian KRS
+    - Tampilkan awal pengisian KRS
+- intent: view_last_date_kprs
+  examples: |
+    - Tampilkan batas akhir pengisian KPRS
+    - Tampilkan tanggal tenggat pengisian KPRS
+- intent: view_start_date_kprs
+  examples: |
+    - Tampilkan tanggal mulai pengisian KPRS
+    - Tampilkan awal pengisian KPRS
+
+- intent: view_transkip_nilai
+  examples: |
+    - Tampilkan transkip nilai
+    - Tampilkan rekap nilai
+- intent: view_total_current_sks
+  examples: |
+    - Tampilkan total sks yang sedang ditempuh
+    - Tampilkan keseluruhan sks yang sedang ditempuh
+- intent: view_total_pick_sks
+  examples: |
+    - Tampilkan total sks yang sudah ditempuh
+    - Tampilkan keseluruhan sks yang sudah ditempuh
+- intent: view_ipk_transkip_nilai
+  examples: |
+    - Tampilkan ipk
+    - Tampilkan index prestasi kumulatif
+- intent: view_mutu_transkip_nilai
+  examples: |
+    - Tampilkan jumlah mutu
+    - Tampilkan banyak mutu
+- intent: view_history_mk_transkip_nilai
+  examples: |
+    - Tampilkan history mata kuliah [kalkulus](mk)
+    - Tampilkan history mata kuliah [algoritma pemrogramman 1](mk)
+    - Tampilkan history mata kuliah [algoritma pemrogramman 2](mk)
+    - Tampilkan history mata kuliah [struktur diskrit 1](mk)
+    - Tampilkan history mata kuliah [struktur diskrit 2](mk)
+- intent: view_mk_mengulang_transkip_nilai
+  examples: |
+    - Tampilkan mata kuliah apa saja yang mengulang
+    - Tampilkan daftar mata kuliah apa saja yang mengulang
+- intent: view_nilai_mk_transkip_nilai
+  examples: |
+    - Tampilkan mata kuliah dengan nilai [A](nilai)
+    - Tampilkan mata kuliah dengan nilai [B](nilai)
+    - Tampilkan mata kuliah dengan nilai [C](nilai)
+    - Tampilkan mata kuliah dengan nilai [D](nilai)
+    - Tampilkan mata kuliah dengan nilai [E](nilai)
+
+#skema seputar SULIET/USEPT
+- intent: view_history_suliet_usept
+  examples: |
+    - Tampilkan history suliet
+    - Tampilkan history usept
+- intent: view_date_suliet_usept
+  examples: |
+    - Tampilkan tanggal test suliet
+    - Tampilkan tanggal test usept
+- intent: view_result_suliet_usept
+  examples: |
+    - Tampilkan hasil test suliet
+    - Tampilkan hasil test usept
+
+- intent: view_data_akademik
+  examples: |
+    - Tampilkan data pribadi
+    - Tampilkan informasi data pribadi
+- intent: view_angkatan
+  examples: |
+    - Tampilkan angkatan
+    - Tampilkan tahun angkatan
+
+- intent: tanya_jadwal
+  examples: |
+    - aku ingin melihat jadwal kuliah hari ini
+    - aku butuh jadwal untuk hari ini
+    - hari ini jadwal apa saja ?
+    - beri aku jadwal untuk hari ini
+    - aku ingin kamu memberikan jadwal untuk hari ini
+
+- intent: hari_senin
+  examples: |
+    - hari senin
+    - jadwal untuk hari senin
+
+- intent: hari_selasa
+  examples: |
+    - hari selasa
+    - jadwal untuk hari selasa
+
+- intent: hari_rabu
+  examples: |
+    - hari rabu
+    - jadwal untuk hari rabu
+
+- intent: hari_kamis
+  examples: |
+    - hari kamis
+    - jadwal untuk hari kamis
+
+- intent: salam
+  examples: |
+    - assalamualaikum
+    - assalamualaikum wr.wb
+    - assalamualaikum warahmatullahi wabarakatuh
+
+- intent: penutup
+  examples: |
+    - wassalamualaikum
+    - wassalamualaikum wr.wb
+    - wassalamualaikum warahmatullahi wabarakatuh
+
+- intent: greet
+  examples: |
+    - hai
+    - halo
+    - halo bot
+    - selamat pagi
+    - selamat siang
+    - halo kamu
+    - selamat sore
+    - selamat malam
+
+- intent: goodbye
+  examples: |
+    - dah
+    - dadah
+    - sampai bertemu lagi
+
+- intent: affirm
+  examples: |
+    - iya
+    - tentu
+    - kedengarannya sangat hebat
+    - benar
+    - sudah pasti
+
+- intent: deny
+  examples: |
+    - tidak
+    - tidak akan
+    - aku tidak berfikir demikian
+    - bukan seperti itu
+    - tidak mau
+    - tidak juga
+
+- intent: mood_great
+  examples: |
+    - hebat
+    - sangat baik
+    - baik
+    - luar biasa
+    - menakjubkan
+    - aku dalam kondisi yang luar biasa
+    - aku sangat baik
+    - aku baik
+
+- intent: mood_unhappy
+  examples: |
+    - sedih
+    - sangat sedih
+    - tidak senang
+    - buruk
+    - sangat buruk
+    - parah
+    - mengerikan
+    - sangat tidak baik
+    - sangat buruk
+    - sangat sedih
+
+- intent: bot_challenge
+  examples: |
+    - apa kamu bot ?
+    - apa kamu manusia ?
+    - apa aku berbicara pada bot ?
+    - apa aku berbicara pada manusia ?

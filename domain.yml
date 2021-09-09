@@ -1,0 +1,187 @@
+
+version: "2.0"
+
+intents:
+  - greet
+  - salam
+  - penutup
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tanya_jadwal
+  - hari_senin
+  - hari_selasa
+  - hari_rabu
+  - hari_kamis
+  - view_khs
+  - view_sks_khs
+  - view_ipk_khs
+  - view_ip_khs
+  - view_sp_khs
+  - view_krs
+  - view_sks_krs
+  - view_max_sks_krs
+  - view_jadwal_mk_krs
+  - view_dosen_mk_krs
+  - view_ruangan_mk_krs
+  - view_sks_mk_krs
+  - view_kode_mk_krs
+  - view_avaible_mk_krs
+  - view_avaible_mk_sp_krs
+  - view_max_sks_sp_krs
+  - view_sks_sp_krs
+  - view_sp_krs
+  - view_dosen_pa
+  - view_current_semester
+  - view_nim
+  - view_nip_dosen_pa
+  - view_name
+  - view_prodi
+  - view_last_date_krs
+  - view_start_date_krs
+  - view_last_date_kprs
+  - view_start_date_kprs
+  - view_transkip_nilai
+  - view_total_current_sks
+  - view_total_pick_sks
+  - view_ipk_transkip_nilai
+  - view_mutu_transkip_nilai
+  - view_history_mk_transkip_nilai
+  - view_mk_mengulang_transkip_nilai
+  - view_nilai_mk_transkip_nilai
+  - view_history_suliet_usept
+  - view_date_suliet_usept
+  - view_result_suliet_usept
+  - view_data_akademik
+  - view_angkatan
+
+entities:
+    - semester
+    - mk
+    - nilai
+
+slots:
+    semester:
+      type: text
+      influence_conversation: true
+    mk:
+      type: text
+      influence_conversation: true
+    nilai:
+      type: text
+      influence_conversation: false
+
+responses:
+
+  utter_view_dosen_pa:
+  - text: "ini adalah nama dosen pa kamu"
+
+  utter_view_current_semester:
+  - text: "ini adalah semester kamu sekarang"
+
+  utter_view_nim:
+  - text: "ini adalah NIM kamu"
+
+  utter_view_nip_dosen_pa:
+  - text: "ini NIP dosen PA kamu"
+
+  utter_view_name:
+  - text: "ini adalah nama kamu berdasarkan data pada akademik"
+
+  utter_view_prodi:
+  - text: "ini adalah prodi kamu"
+
+  utter_view_last_date_krs:
+  - text: "ini adalah batas akhir pengisian krs"
+
+  utter_view_start_date_krs:
+  - text: "ini adalah tanggal mulai pengisian krs"
+
+  utter_view_last_date_kprs:
+  - text: "ini adalah batas akhir pengisian kprs"
+
+  utter_view_start_date_kprs:
+  - text: "ini adalah tanggal mulai pengisian kprs"
+
+  utter_view_transkip_nilai:
+  - text: "ini adalah transkip nilai akademik kamu"
+
+  utter_view_total_current_sks:
+  - text: "ini adalah total sks yang sedang ditempuh"
+
+  utter_view_total_pick_sks:
+  - text: "ini adalah total sks yang sudah ditempuh"
+
+  utter_view_ipk_transkip_nilai:
+  - text: "ini adalah ipk kamu"
+
+  utter_view_mutu_transkip_nilai:
+  - text: "ini adalah total nilai mutu"
+
+  utter_mk_mengulang_transkip_nilai:
+  - text: "ini adalah daftar mata kuliah yang mengulang"
+
+  utter_view_history_suliet_usept:
+  - text: "ini adalah history suliet/usept"
+
+  utter_view_date_suliet_usept:
+  - text: "ini adalah tanggal suliet/usept"
+
+  utter_view_result_suliet_usept:
+  - text: "ini adalah hasil suliet/usept"
+
+  utter_view_data_akademik:
+  - text: "ini adalah data akademik"
+
+  utter_view_angkatan:
+  - text: "ini adalah angkatan kamu"
+
+  utter_tanya_jadwal:
+  - text: "jadwal untuk hari apa ?"
+
+  utter_hari_senin:
+  - text: "ini jadwal untuk hari senin"
+
+  utter_hari_selasa:
+  - text: "ini jadwal untuk hari selasa"
+
+  utter_hari_rabu:
+  - text: "ini jadwal untuk hari rabu"
+
+  utter_hari_kamis:
+  - text: "ini jadwal untuk hari kamis"
+
+  utter_salam:
+  - text: "Waalaikumsalam."
+
+  utter_greet:
+  - text: "Halo, apa kabarmu ?"
+
+  utter_cheer_up:
+  - text: "Halo, jangan bersedih. Coba lihatlah gambar yang imut ini"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Apakah itu membantumu ?"
+
+  utter_happy:
+  - text: "Hebat, aku turut senang mendengarnya !"
+
+  utter_goodbye:
+  - text: "Dadah"
+
+  utter_penutup:
+  - text: "Waalaikumsalam."
+
+  utter_iamabot:
+  - text: "Aku adalah bot, dikembangkan dengan framework rasa."
+
+actions:
+    - aksi_view_khs
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

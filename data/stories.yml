@@ -1,0 +1,281 @@
+
+version: "2.0"
+
+stories:
+
+#skema seputar khs
+- story: view_khs
+  steps:
+  - intent: view_khs
+  - action: aksi_view_khs
+
+- story: view_sks_khs
+  steps:
+  - intent: view_sks_khs
+  - action: aksi_view_sks_khs
+
+- story: view_ipk_khs
+  steps:
+  - intent: view_ipk_khs
+  - action: aksi_view_ipk_khs
+
+- story: view_ip_khs
+  steps:
+  - intent: view_ip_khs
+  - action: aksi_view_ip_khs
+
+- story: view_sp_khs
+  steps:
+  - intent: view_sp_khs
+  - action: aksi_view_sp_khs
+
+#skema seputar krs
+- story: view_krs
+  steps:
+  - intent: view_krs
+  - action: aksi_view_krs
+
+- story: view_sks_krs
+  steps:
+  - intent: view_sks_krs
+  - action: aksi_view_sks_krs
+
+- story: view_max_sks_krs
+  steps:
+  - intent: view_max_sks_krs
+  - action: aksi_view_max_sks_krs
+
+- story: view_jadwal_mk_krs
+  steps:
+  - intent: view_jadwal_mk_krs
+  - action: aksi_view_jadwal_mk_krs
+
+- story: view_dosen_mk_krs
+  steps:
+  - intent: view_dosen_mk_krs
+  - action: aksi_view_dosen_mk_krs
+
+- story: view_ruangan_mk_krs
+  steps:
+  - intent: view_ruangan_mk_krs
+  - action: aksi_view_ruangan_mk_krs
+
+- story: view_sks_mk_krs
+  steps:
+  - intent: view_sks_mk_krs
+  - action: aksi_view_sks_mk_krs
+
+- story: view_kode_mk_krs
+  steps:
+  - intent: view_kode_mk_krs
+  - action: aksi_view_kode_mk_krs
+
+- story: view_avaible_mk_krs
+  steps:
+  - intent: view_avaible_mk_krs
+  - action: aksi_view_avaible_mk_krs
+
+- story: view_avaible_mk_sp_krs
+  steps:
+  - intent: view_avaible_mk_sp_krs
+  - action: aksi_view_avaible_mk_sp_krs
+
+- story: view_max_sks_sp_krs
+  steps:
+  - intent: view_max_sks_sp_krs
+  - action: aksi_view_max_sks_sp_krs
+
+- story: view_sks_sp_krs
+  steps:
+  - intent: view_sks_sp_krs
+  - action: aksi_view_sks_sp_krs
+
+- story: view_sp_krs
+  steps:
+  - intent: view_sp_krs
+  - action: aksi_view_sp_krs
+
+- story: view_dosen_pa
+  steps:
+  - intent: view_dosen_pa
+  - action: utter_view_dosen_pa
+
+- story: view_current_semester
+  steps:
+  - intent: view_current_semester
+  - action: utter_view_current_semester
+
+- story: view_nim
+  steps:
+  - intent: view_nim
+  - action: utter_view_nim
+
+- story: view_nip_dosen_pa
+  steps:
+  - intent: view_nip_dosen_pa
+  - action: utter_view_nip_dosen_pa
+
+- story: view_name
+  steps:
+  - intent: view_name
+  - action: utter_view_name
+
+- story: view_prodi
+  steps:
+  - intent: view_prodi
+  - action: utter_view_prodi
+
+- story: view_last_date_krs
+  steps:
+  - intent: view_last_date_krs
+  - action: utter_view_last_date_krs
+
+- story: view_start_date_krs
+  steps:
+  - intent: view_start_date_krs
+  - action: utter_view_start_date_krs
+
+- story: view_last_date_kprs
+  steps:
+  - intent: view_last_date_kprs
+  - action: utter_view_last_date_kprs
+
+- story: view_start_date_kprs
+  steps:
+  - intent: view_start_date_kprs
+  - action: utter_view_start_date_kprs
+
+#skema seputar transkip nilai
+- story: view_transkip_nilai
+  steps:
+  - intent: view_transkip_nilai
+  - action: utter_view_transkip_nilai
+
+- story: view_total_current_sks
+  steps:
+  - intent: view_total_current_sks
+  - action: utter_view_total_current_sks
+
+- story: view_total_pick_sks
+  steps:
+  - intent: view_total_pick_sks
+  - action: utter_view_total_pick_sks
+
+- story: view_ipk_transkip_nilai
+  steps:
+  - intent: view_ipk_transkip_nilai
+  - action: utter_view_ipk_transkip_nilai
+
+- story: view_mutu_transkip_nilai
+  steps:
+  - intent: view_mutu_transkip_nilai
+  - action: utter_view_mutu_transkip_nilai
+
+- story: view_history_mk_transkip_nilai
+  steps:
+  - intent: view_history_mk_transkip_nilai
+  - action: aksi_view_history_mk_transkip_nilai
+
+- story: view_mk_mengulang_transkip_nilai
+  steps:
+  - intent: view_mk_mengulang_transkip_nilai
+  - action: utter_mk_mengulang_transkip_nilai
+
+- story: view_nilai_mk_transkip_nilai
+  steps:
+  - intent: view_nilai_mk_transkip_nilai
+  - action: aksi_view_nilai_mk_transkip_nilai
+
+- story: view_nilai_mk_transkip_nilai
+  steps:
+  - intent: view_nilai_mk_transkip_nilai
+  - action: aksi_view_nilai_mk_transkip_nilai
+
+#skema seputar SULIET/USEPT
+- story: view_history_suliet_usept
+  steps:
+  - intent: view_history_suliet_usept
+  - action: utter_view_history_suliet_usept
+
+- story: view_date_suliet_usept
+  steps:
+  - intent: view_date_suliet_usept
+  - action: utter_view_date_suliet_usept
+
+- story: view_result_suliet_usept
+  steps:
+  - intent: view_result_suliet_usept
+  - action: utter_view_result_suliet_usept
+
+#skema seputar data akademik
+- story: view_data_akademik
+  steps:
+  - intent: view_data_akademik
+  - action: utter_view_data_akademik
+
+- story: view_angkatan
+  steps:
+  - intent: view_angkatan
+  - action: utter_view_angkatan
+
+- story: tanya_jadwal
+  steps:
+  - intent: tanya_jadwal
+  - action: utter_tanya_jadwal
+
+- story: hari_senin
+  steps:
+  - intent: hari_senin
+  - action: utter_hari_senin
+
+- story: hari_selasa
+  steps:
+  - intent: hari_selasa
+  - action: utter_hari_selasa
+
+- story: hari_rabu
+  steps:
+  - intent: hari_rabu
+  - action: utter_hari_rabu
+
+- story: hari_kamis
+  steps:
+  - intent: hari_kamis
+  - action: utter_hari_kamis
+
+- story: salam
+  steps:
+  - intent: salam
+  - action: utter_salam
+
+- story: penutup
+  steps:
+  - intent: penutup
+  - action: utter_penutup
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
