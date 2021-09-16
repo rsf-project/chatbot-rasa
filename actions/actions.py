@@ -281,22 +281,6 @@ class aksiGetNama(Action):
         if not semester:
             dispatcher.utter_message(text="Maaf tidak dapat memproses, ulangi pertanyaan dengan memasukkan angka semester")
         else:
-            dispatcher.utter_message(text=f"ini adalah jumlah maksimum sks yang dapat diambil untuk semester {semester}!")
-        return []
-
-class aksiGetNama(Action):
-
-    def name(self) -> Text:
-        return "aksi_view_sks_sp_krs"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        semester = tracker.get_slot("semester")
-        if not semester:
-            dispatcher.utter_message(text="Maaf tidak dapat memproses, ulangi pertanyaan dengan memasukkan angka semester")
-        else:
             dispatcher.utter_message(text=f"ini adalah jumlah sks krs yang diambil untuk semester {semester}!")
         return []
 

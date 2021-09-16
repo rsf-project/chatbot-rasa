@@ -180,6 +180,7 @@ responses:
   - text: "Aku adalah bot, dikembangkan dengan framework rasa."
 
 actions:
+    - aksi_view_ipk_khs
     - aksi_view_khs
     - aksi_view_sks_khs
     - aksi_view_ip_khs
@@ -189,13 +190,12 @@ actions:
     - aksi_view_max_sks_krs
     - aksi_view_jadwal_mk_krs
     - aksi_view_dosen_mk_krs
-    - aksi_aksi_view_ruangan_mk_krs
+    - aksi_view_ruangan_mk_krs
     - aksi_view_sks_mk_krs
     - aksi_view_kode_mk_krs
     - aksi_view_avaible_mk_krs
     - aksi_view_avaible_mk_sp_krs
     - aksi_view_max_sks_sp_krs
-    - aksi_view_sks_sp_krs
     - aksi_view_sks_sp_krs
     - aksi_view_sp_krs
     - aksi_view_history_mk_transkip_nilai

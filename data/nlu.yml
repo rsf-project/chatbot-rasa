@@ -163,6 +163,7 @@ nlu:
     - Tampilkan tanggal mulai pengisian KPRS
     - Tampilkan awal pengisian KPRS
 
+#skema seputar transkip nilai
 - intent: view_transkip_nilai
   examples: |
     - Tampilkan transkip nilai
@@ -216,6 +217,7 @@ nlu:
     - Tampilkan hasil test suliet
     - Tampilkan hasil test usept
 
+#skema seputar akademik
 - intent: view_data_akademik
   examples: |
     - Tampilkan data pribadi
