@@ -20,6 +20,12 @@ Dataset untuk training NER
 - https://raw.githubusercontent.com/yusufsyaifudin/indonesia-ner/master/resources/ner/data_train.txt
 - https://raw.githubusercontent.com/yohanesgultom/nlp-experiments/master/data/ner/training_data.txt
 
+Perlu dicatat bahwa dataset diatas adalah kumpulan text pelatihan yang masih raw. Agar dapat digunakan sebagai model latihan pada Spacy maka keseluruhan text tersebut harus diubah dengan standar spacy. Pelajari lebih lanjut pada link dibawah :
+- https://spacy.io/usage/saving-loading
+
+Untuk dataset yang telah diubah pada standar model Spacy dapat dilihat pada link dibawah :
+- https://github.com/rsf-project/chatbot-rasa/blob/main/NER_model_spacy_indonesia/ner_spacy_fmt_datasets.pickle
+
 Referensi Syntax
 -------------
 - https://yudanta.github.io/posts/train-an-indonesian-ner-from-a-blank-spacy-model/
