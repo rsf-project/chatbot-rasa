@@ -1,0 +1,41 @@
+{
+  "mk": {
+    "precision": 0.9743589743589743,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.9743589743589743,
+    "support": 78,
+    "confused_with": {}
+  },
+  "semester": {
+    "precision": 0.9464285714285714,
+    "recall": 0.9814814814814815,
+    "f1-score": 0.9636363636363636,
+    "support": 54,
+    "confused_with": {}
+  },
+  "nilai": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9635036496350365,
+    "recall": 0.9635036496350365,
+    "f1-score": 0.9635036496350365,
+    "support": 137
+  },
+  "macro avg": {
+    "precision": 0.9735958485958486,
+    "recall": 0.8519468186134853,
+    "f1-score": 0.8959984459984459,
+    "support": 137
+  },
+  "weighted avg": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9635036496350365,
+    "f1-score": 0.9619442601194426,
+    "support": 137
+  }
+}

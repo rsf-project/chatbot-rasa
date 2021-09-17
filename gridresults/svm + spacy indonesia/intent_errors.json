@@ -1,0 +1,538 @@
+[
+  {
+    "text": "Tampilkan krs pada semester ini",
+    "intent": "view_krs",
+    "intent_prediction": {
+      "name": "view_nip_dosen_pa",
+      "confidence": 0.17310258746147156
+    }
+  },
+  {
+    "text": "Tampilkan jumlah sks yang diambil pada semester ini",
+    "intent": "view_sks_krs",
+    "intent_prediction": {
+      "name": "view_sks_khs",
+      "confidence": 0.5271268486976624
+    }
+  },
+  {
+    "text": "Tampilkan jumlah sks maksimum yang boleh diambil pada semester ini",
+    "intent": "view_max_sks_krs",
+    "intent_prediction": {
+      "name": "view_sks_khs",
+      "confidence": 0.2207408994436264
+    }
+  },
+  {
+    "text": "Tampilkan banyak sks maksimum yang boleh diambil pada semester ini",
+    "intent": "view_max_sks_krs",
+    "intent_prediction": {
+      "name": "view_nip_dosen_pa",
+      "confidence": 0.1992221623659134
+    }
+  },
+  {
+    "text": "Tampilkan kode mata kuliah kalkulus",
+    "intent": "view_kode_mk_krs",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3631117641925812
+    }
+  },
+  {
+    "text": "Tampilkan mata kuliah apa saja yang dapat diambil pada semester ini",
+    "intent": "view_avaible_mk_krs",
+    "intent_prediction": {
+      "name": "view_avaible_mk_sp_krs",
+      "confidence": 0.4598318934440613
+    }
+  },
+  {
+    "text": "Tampilkan mata kuliah apa saja yang bisa diambil pada semester pendek",
+    "intent": "view_avaible_mk_sp_krs",
+    "intent_prediction": {
+      "name": "view_avaible_mk_krs",
+      "confidence": 0.1806698441505432
+    }
+  },
+  {
+    "text": "Tampilkan batas maksimum yang boleh diambil pada semester pendek",
+    "intent": "view_max_sks_sp_krs",
+    "intent_prediction": {
+      "name": "view_max_sks_krs",
+      "confidence": 0.1798868626356125
+    }
+  },
+  {
+    "text": "Tampilkan banyak maksimum yang boleh diambil pada semester pendek",
+    "intent": "view_max_sks_sp_krs",
+    "intent_prediction": {
+      "name": "view_sp_khs",
+      "confidence": 0.27655693888664246
+    }
+  },
+  {
+    "text": "Tampilkan jumlah sks yang diambil pada semster pendek",
+    "intent": "view_sks_sp_krs",
+    "intent_prediction": {
+      "name": "view_sks_khs",
+      "confidence": 0.27584150433540344
+    }
+  },
+  {
+    "text": "Tampilkan krs semester pendek",
+    "intent": "view_sp_krs",
+    "intent_prediction": {
+      "name": "view_sp_khs",
+      "confidence": 0.7721216082572937
+    }
+  },
+  {
+    "text": "Tampilkan nama dosen PA",
+    "intent": "view_dosen_pa",
+    "intent_prediction": {
+      "name": "view_nip_dosen_pa",
+      "confidence": 0.42306241393089294
+    }
+  },
+  {
+    "text": "Tampilkan nomor induk mahasiswa",
+    "intent": "view_nim",
+    "intent_prediction": {
+      "name": "view_nip_dosen_pa",
+      "confidence": 0.7076994776725769
+    }
+  },
+  {
+    "text": "Tampilkan NIP dosen pembimbing akademik",
+    "intent": "view_nip_dosen_pa",
+    "intent_prediction": {
+      "name": "view_dosen_pa",
+      "confidence": 0.6071442365646362
+    }
+  },
+  {
+    "text": "Tampilkan tanggal tenggat pengisian KRS",
+    "intent": "view_last_date_krs",
+    "intent_prediction": {
+      "name": "view_last_date_kprs",
+      "confidence": 0.8411706686019897
+    }
+  },
+  {
+    "text": "Tampilkan tanggal mulai pengisian KRS",
+    "intent": "view_start_date_krs",
+    "intent_prediction": {
+      "name": "view_last_date_kprs",
+      "confidence": 0.47787317633628845
+    }
+  },
+  {
+    "text": "Tampilkan batas akhir pengisian KPRS",
+    "intent": "view_last_date_kprs",
+    "intent_prediction": {
+      "name": "view_last_date_krs",
+      "confidence": 0.7301468253135681
+    }
+  },
+  {
+    "text": "Tampilkan tanggal mulai pengisian KPRS",
+    "intent": "view_start_date_kprs",
+    "intent_prediction": {
+      "name": "view_last_date_kprs",
+      "confidence": 0.7742671370506287
+    }
+  },
+  {
+    "text": "Tampilkan rekap nilai",
+    "intent": "view_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_nilai_mk_transkip_nilai",
+      "confidence": 0.515727698802948
+    }
+  },
+  {
+    "text": "Tampilkan total sks yang sedang ditempuh",
+    "intent": "view_total_current_sks",
+    "intent_prediction": {
+      "name": "view_total_pick_sks",
+      "confidence": 0.5793080925941467
+    }
+  },
+  {
+    "text": "Tampilkan keseluruhan sks yang sudah ditempuh",
+    "intent": "view_total_pick_sks",
+    "intent_prediction": {
+      "name": "view_total_current_sks",
+      "confidence": 0.6375885009765625
+    }
+  },
+  {
+    "text": "Tampilkan index prestasi kumulatif",
+    "intent": "view_ipk_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_angkatan",
+      "confidence": 0.13829904794692993
+    }
+  },
+  {
+    "text": "Tampilkan banyak mutu",
+    "intent": "view_mutu_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_sks_sp_krs",
+      "confidence": 0.15774615108966827
+    }
+  },
+  {
+    "text": "Tampilkan history mata kuliah algoritma pemrogramman 1",
+    "intent": "view_history_mk_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_jadwal_mk_krs",
+      "confidence": 0.24580220878124237
+    }
+  },
+  {
+    "text": "Tampilkan history mata kuliah algoritma pemrogramman 2",
+    "intent": "view_history_mk_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_jadwal_mk_krs",
+      "confidence": 0.24580220878124237
+    }
+  },
+  {
+    "text": "Tampilkan history suliet",
+    "intent": "view_history_suliet_usept",
+    "intent_prediction": {
+      "name": "view_history_mk_transkip_nilai",
+      "confidence": 0.5811643004417419
+    }
+  },
+  {
+    "text": "jadwal untuk hari senin",
+    "intent": "hari_senin",
+    "intent_prediction": {
+      "name": "tanya_jadwal",
+      "confidence": 0.269269734621048
+    }
+  },
+  {
+    "text": "jadwal untuk hari selasa",
+    "intent": "hari_selasa",
+    "intent_prediction": {
+      "name": "tanya_jadwal",
+      "confidence": 0.30263182520866394
+    }
+  },
+  {
+    "text": "jadwal untuk hari rabu",
+    "intent": "hari_rabu",
+    "intent_prediction": {
+      "name": "tanya_jadwal",
+      "confidence": 0.34298136830329895
+    }
+  },
+  {
+    "text": "assalamualaikum wr.wb",
+    "intent": "salam",
+    "intent_prediction": {
+      "name": "penutup",
+      "confidence": 0.79739910364151
+    }
+  },
+  {
+    "text": "assalamualaikum warahmatullahi wabarakatuh",
+    "intent": "salam",
+    "intent_prediction": {
+      "name": "penutup",
+      "confidence": 0.3665274977684021
+    }
+  },
+  {
+    "text": "hai",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.21892783045768738
+    }
+  },
+  {
+    "text": "sampai bertemu lagi",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "view_name",
+      "confidence": 0.25853967666625977
+    }
+  },
+  {
+    "text": "iya",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "view_ipk_transkip_nilai",
+      "confidence": 0.14546778798103333
+    }
+  },
+  {
+    "text": "sudah pasti",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "view_total_pick_sks",
+      "confidence": 0.6181380152702332
+    }
+  },
+  {
+    "text": "bukan seperti itu",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.17059990763664246
+    }
+  },
+  {
+    "text": "sangat baik",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.672537088394165
+    }
+  },
+  {
+    "text": "parah",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.290388822555542
+    }
+  },
+  {
+    "text": "mengerikan",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.21992796659469604
+    }
+  },
+  {
+    "text": "Tampilkan kartu rencana studi pada semester ini",
+    "intent": "view_krs",
+    "intent_prediction": {
+      "name": "view_khs",
+      "confidence": 0.5244067907333374
+    }
+  },
+  {
+    "text": "Tampilkan banyak sks yang diambil pada semester ini",
+    "intent": "view_sks_krs",
+    "intent_prediction": {
+      "name": "view_max_sks_krs",
+      "confidence": 0.18623189628124237
+    }
+  },
+  {
+    "text": "Tampilkan jadwal mata kuliah algoritma pemrogramman 1",
+    "intent": "view_jadwal_mk_krs",
+    "intent_prediction": {
+      "name": "view_sks_mk_krs",
+      "confidence": 0.38366004824638367
+    }
+  },
+  {
+    "text": "Tampilkan jadwal mata kuliah algoritma pemrogramman 2",
+    "intent": "view_jadwal_mk_krs",
+    "intent_prediction": {
+      "name": "view_sks_mk_krs",
+      "confidence": 0.38366004824638367
+    }
+  },
+  {
+    "text": "Tampilkan mata kuliah apa saja yang bisa diambil pada semester ini",
+    "intent": "view_avaible_mk_krs",
+    "intent_prediction": {
+      "name": "view_avaible_mk_sp_krs",
+      "confidence": 0.5001929402351379
+    }
+  },
+  {
+    "text": "Tampilkan mata kuliah apa saja yang dapat diambil pada semester pendek",
+    "intent": "view_avaible_mk_sp_krs",
+    "intent_prediction": {
+      "name": "hari_senin",
+      "confidence": 0.3000665605068207
+    }
+  },
+  {
+    "text": "Tampilkan kartu rencana studi semester pendek",
+    "intent": "view_sp_krs",
+    "intent_prediction": {
+      "name": "view_khs",
+      "confidence": 0.5485937595367432
+    }
+  },
+  {
+    "text": "Tampilkan nama dosen pembimbing akademik",
+    "intent": "view_dosen_pa",
+    "intent_prediction": {
+      "name": "view_nip_dosen_pa",
+      "confidence": 0.7968912720680237
+    }
+  },
+  {
+    "text": "Tampilkan NIM",
+    "intent": "view_nim",
+    "intent_prediction": {
+      "name": "view_sp_krs",
+      "confidence": 0.12561368942260742
+    }
+  },
+  {
+    "text": "Tampilkan NIP dosen PA",
+    "intent": "view_nip_dosen_pa",
+    "intent_prediction": {
+      "name": "view_dosen_pa",
+      "confidence": 0.5241813063621521
+    }
+  },
+  {
+    "text": "Tampilkan batas akhir pengisian KRS",
+    "intent": "view_last_date_krs",
+    "intent_prediction": {
+      "name": "view_last_date_kprs",
+      "confidence": 0.697531521320343
+    }
+  },
+  {
+    "text": "Tampilkan tanggal tenggat pengisian KPRS",
+    "intent": "view_last_date_kprs",
+    "intent_prediction": {
+      "name": "view_last_date_krs",
+      "confidence": 0.4078533351421356
+    }
+  },
+  {
+    "text": "Tampilkan transkip nilai",
+    "intent": "view_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_nilai_mk_transkip_nilai",
+      "confidence": 0.3538382351398468
+    }
+  },
+  {
+    "text": "Tampilkan keseluruhan sks yang sedang ditempuh",
+    "intent": "view_total_current_sks",
+    "intent_prediction": {
+      "name": "view_total_pick_sks",
+      "confidence": 0.717872142791748
+    }
+  },
+  {
+    "text": "Tampilkan total sks yang sudah ditempuh",
+    "intent": "view_total_pick_sks",
+    "intent_prediction": {
+      "name": "view_total_current_sks",
+      "confidence": 0.5538345575332642
+    }
+  },
+  {
+    "text": "Tampilkan ipk",
+    "intent": "view_ipk_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_ipk_khs",
+      "confidence": 0.5295115113258362
+    }
+  },
+  {
+    "text": "Tampilkan jumlah mutu",
+    "intent": "view_mutu_transkip_nilai",
+    "intent_prediction": {
+      "name": "view_sks_khs",
+      "confidence": 0.259134978055954
+    }
+  },
+  {
+    "text": "hari ini jadwal apa saja ?",
+    "intent": "tanya_jadwal",
+    "intent_prediction": {
+      "name": "hari_senin",
+      "confidence": 0.1655753254890442
+    }
+  },
+  {
+    "text": "wassalamualaikum",
+    "intent": "penutup",
+    "intent_prediction": {
+      "name": "salam",
+      "confidence": 0.7092510461807251
+    }
+  },
+  {
+    "text": "wassalamualaikum wr.wb",
+    "intent": "penutup",
+    "intent_prediction": {
+      "name": "salam",
+      "confidence": 0.8902562856674194
+    }
+  },
+  {
+    "text": "tentu",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "view_transkip_nilai",
+      "confidence": 0.24143142998218536
+    }
+  },
+  {
+    "text": "kedengarannya sangat hebat",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.40960976481437683
+    }
+  },
+  {
+    "text": "benar",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.26117566227912903
+    }
+  },
+  {
+    "text": "hebat",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.35391178727149963
+    }
+  },
+  {
+    "text": "menakjubkan",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.39891499280929565
+    }
+  },
+  {
+    "text": "sedih",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "view_total_current_sks",
+      "confidence": 0.2656678855419159
+    }
+  },
+  {
+    "text": "sangat sedih",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.2573550045490265
+    }
+  },
+  {
+    "text": "tidak senang",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.682600200176239
+    }
+  }
+]

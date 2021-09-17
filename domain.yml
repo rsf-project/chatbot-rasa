@@ -89,7 +89,7 @@ responses:
   - text: "ini NIP dosen PA kamu"
 
   utter_view_name:
-  - text: "ini adalah nama kamu berdasarkan data pada akademik"
+  - text: "ini adalah nama kamu berdasarkan data yang tertera pada akademik"
 
   utter_view_prodi:
   - text: "ini adalah prodi kamu"
