@@ -7,7 +7,7 @@ pipeline:
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: SpacyNLP
-    model: "nlp_id_checkpoint_2020_10_26"
+    model: "NER_model_spacy_indonesia"
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
     pooling: mean
